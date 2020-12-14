@@ -8,7 +8,7 @@ public interface EnvironmentService {
 
 	public void configureEnvironment(EnvironmentDAO env);
 
-	public void modifyEnvironment(Map<String, Object> modifier);
+	public Map<String, Object> modifyEnvironment(Map<String, Object> modifier);
 
 	public String getTerrainForPosition(int row, int col);
 }

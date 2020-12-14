@@ -13,6 +13,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>ajira-ajirayaan</name>
 	<description>rover and environment</description>
+	<packaging>war</packaging>
 
 	<properties>
 		<java.version>11</java.version>
@@ -33,6 +34,12 @@
 		    <groupId>org.springframework.boot</groupId> 
 		    <artifactId>spring-boot-starter-validation</artifactId> 
 		</dependency>
+		
+		<dependency>
+		   <groupId>org.springframework.boot</groupId>
+		   <artifactId>spring-boot-starter-tomcat</artifactId>
+		   <scope>provided</scope>
+		</dependency>
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -49,6 +56,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>ajira-ajirayaan</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

@@ -10,11 +10,6 @@ import javax.annotation.PostConstruct;
 
 import org.springframework.stereotype.Service;
 
-/**
- * useItem(name) checkAvailability() remove 1 qty
- * 
- * showCurrentInventory()
- **/
 @Service
 public class RoverInventory {
 	// store item, its priority and units occupied
@@ -38,6 +33,13 @@ public class RoverInventory {
 		this.itemPriorityAndSize.put("rock-sample", Arrays.asList(3, 3));
 	}
 
+	/**
+	 * Adds the item with specified quantity to rover's inventory if possible. Does
+	 * not take part of the quantity. Take all or take none.
+	 * 
+	 * @param item
+	 * @param quantity
+	 */
 	public void addItemToInventory(String item, int quantity) {
 		if (quantity <= 0) {
 			return;
@@ -63,6 +65,13 @@ public class RoverInventory {
 		this.currentInventorySize += unitsRequiredToHoldItem;
 	}
 
+	/**
+	 * Add the item to inventory, if we're sure that the item can be added.
+	 * 
+	 * @param item
+	 * @param quantity
+	 * @param priorityOfCurrentItem
+	 */
 	private void addTargetItemToInventory(String item, int quantity, int priorityOfCurrentItem) {
 		if (this.inventory.keySet().contains(priorityOfCurrentItem)) {
 			int currentQtyOfItem = Integer.parseInt(this.inventory.get(priorityOfCurrentItem).get("itemQuantity"));
@@ -76,6 +85,12 @@ public class RoverInventory {
 		}
 	}
 
+	/**
+	 * Perform the freeing up inventory operation. Only after the confirmation that
+	 * new item can be placed.
+	 * 
+	 * @param itemsAndUnitsToBeRemoved
+	 */
 	private void freeInventory(Map<Integer, Integer> itemsAndUnitsToBeRemoved) {
 		for (Integer prioritiyOfItemToBeDropped : itemsAndUnitsToBeRemoved.keySet()) {
 			int currentQtyOfItem = Integer.parseInt(this.inventory.get(prioritiyOfItemToBeDropped).get("itemQuantity"));
@@ -93,6 +108,15 @@ public class RoverInventory {
 		}
 	}
 
+	/**
+	 * determine if the new item with its specified quantity can be and should be
+	 * stored in inventory.
+	 * 
+	 * @param priorityOfCurrentItem
+	 * @param itemsAndUnitsToBeRemoved
+	 * @param freeUnitsRequired
+	 * @return
+	 */
 	private boolean isSpaceAvailable(int priorityOfCurrentItem, Map<Integer, Integer> itemsAndUnitsToBeRemoved,
 			int freeUnitsRequired) {
 		boolean canBeStored = false;
@@ -124,6 +148,11 @@ public class RoverInventory {
 		return canBeStored;
 	}
 
+	/**
+	 * Utilize an item if it was in inventory.
+	 * 
+	 * @param itemName
+	 */
 	public void useItem(String itemName) {
 		int priorityOfCurrentItem = this.itemPriorityAndSize.get(itemName).get(0);
 		if (this.inventory.keySet().contains(priorityOfCurrentItem)) {
@@ -138,6 +167,13 @@ public class RoverInventory {
 		}
 	}
 
+	/**
+	 * show the current inventory status.<br>
+	 * e.g. <code>[ { "type": "storm-shield",
+	 * "quantity": 1, "priority": 1 } ]</code>
+	 * 
+	 * @return
+	 */
 	public List<Map<String, Object>> showCurrentInventory() {
 		List<Map<String, Object>> currentInventory = new ArrayList<Map<String, Object>>();
 		for (Integer priority : this.inventory.keySet()) {
