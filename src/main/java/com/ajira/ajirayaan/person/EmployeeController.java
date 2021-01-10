@@ -17,7 +17,6 @@ public class EmployeeController {
 	public EmployeeEntity getEmployee() {
 //		EmployeeEntity employee = employeeService.getEmployeeByName("alex");
 //		return new ResponseEntity(employee, HttpStatus.OK);
-		int a = 10 / 0;
 		return employeeService.getEmployeeByName("alex");
 	}
 

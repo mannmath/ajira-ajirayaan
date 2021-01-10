@@ -101,3 +101,35 @@ java.lang.ArithmeticException: / by zero
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
 	at java.lang.Thread.run(Thread.java:832) [?:?]
+2021-01-10 19:32:10,374 INFO c.a.a.AjiraAjirayaanApplication [main] Starting AjiraAjirayaanApplication on DESKTOP-B6RTUQ2 with PID 11164 (D:\Study\JAVA\git\ajira-ajirayaan\target\classes started by Sam M in D:\Study\JAVA\git\ajira-ajirayaan)
+2021-01-10 19:32:10,389 DEBUG c.a.a.AjiraAjirayaanApplication [main] Running with Spring Boot v2.3.8.BUILD-SNAPSHOT, Spring v5.2.12.RELEASE
+2021-01-10 19:32:10,390 INFO c.a.a.AjiraAjirayaanApplication [main] No active profile set, falling back to default profiles: default
+2021-01-10 19:32:16,250 INFO c.a.a.AjiraAjirayaanApplication [main] Started AjiraAjirayaanApplication in 6.335 seconds (JVM running for 7.831)
+2021-01-10 19:32:22,741 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Enter: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with argument[s] = []
+2021-01-10 19:32:22,753 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Enter: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with argument[s] = [alex]
+2021-01-10 19:32:23,074 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Exit: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with result = EmployeeEntity [id=1, name=alex]
+2021-01-10 19:32:23,074 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Exit: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with result = EmployeeEntity [id=1, name=alex]
+2021-01-10 23:01:25,197 INFO c.a.a.AjiraAjirayaanApplication [main] Starting AjiraAjirayaanApplication on DESKTOP-B6RTUQ2 with PID 5568 (D:\Study\JAVA\git\ajira-ajirayaan\target\classes started by Sam M in D:\Study\JAVA\git\ajira-ajirayaan)
+2021-01-10 23:01:25,209 DEBUG c.a.a.AjiraAjirayaanApplication [main] Running with Spring Boot v2.3.8.BUILD-SNAPSHOT, Spring v5.2.12.RELEASE
+2021-01-10 23:01:25,210 INFO c.a.a.AjiraAjirayaanApplication [main] No active profile set, falling back to default profiles: default
+2021-01-10 23:01:30,877 INFO c.a.a.AjiraAjirayaanApplication [main] Started AjiraAjirayaanApplication in 6.11 seconds (JVM running for 7.646)
+2021-01-10 23:01:43,306 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Enter: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with argument[s] = []
+2021-01-10 23:01:43,322 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Enter: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with argument[s] = [alex]
+2021-01-10 23:01:43,691 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Exit: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with result = EmployeeEntity [id=1, name=alex]
+2021-01-10 23:01:43,692 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Exit: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with result = EmployeeEntity [id=1, name=alex]
+2021-01-10 23:01:44,674 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-3] Enter: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with argument[s] = []
+2021-01-10 23:01:44,674 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-3] Enter: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with argument[s] = [alex]
+2021-01-10 23:01:44,710 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-3] Exit: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with result = EmployeeEntity [id=2, name=alex]
+2021-01-10 23:01:44,711 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-3] Exit: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with result = EmployeeEntity [id=2, name=alex]
+2021-01-10 23:02:11,814 INFO c.a.a.AjiraAjirayaanApplication [main] Starting AjiraAjirayaanApplication on DESKTOP-B6RTUQ2 with PID 10280 (D:\Study\JAVA\git\ajira-ajirayaan\target\classes started by Sam M in D:\Study\JAVA\git\ajira-ajirayaan)
+2021-01-10 23:02:11,826 DEBUG c.a.a.AjiraAjirayaanApplication [main] Running with Spring Boot v2.3.8.BUILD-SNAPSHOT, Spring v5.2.12.RELEASE
+2021-01-10 23:02:11,827 INFO c.a.a.AjiraAjirayaanApplication [main] No active profile set, falling back to default profiles: default
+2021-01-10 23:02:19,503 INFO c.a.a.AjiraAjirayaanApplication [main] Started AjiraAjirayaanApplication in 8.246 seconds (JVM running for 10.085)
+2021-01-10 23:02:21,938 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Enter: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with argument[s] = []
+2021-01-10 23:02:21,955 ERROR c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Exception in com.ajira.ajirayaan.person.EmployeeController.getEmployee() with cause = NULL
+2021-01-10 23:04:26,671 INFO c.a.a.AjiraAjirayaanApplication [main] Starting AjiraAjirayaanApplication on DESKTOP-B6RTUQ2 with PID 1796 (D:\Study\JAVA\git\ajira-ajirayaan\target\classes started by Sam M in D:\Study\JAVA\git\ajira-ajirayaan)
+2021-01-10 23:04:26,684 DEBUG c.a.a.AjiraAjirayaanApplication [main] Running with Spring Boot v2.3.8.BUILD-SNAPSHOT, Spring v5.2.12.RELEASE
+2021-01-10 23:04:26,684 INFO c.a.a.AjiraAjirayaanApplication [main] No active profile set, falling back to default profiles: default
+2021-01-10 23:04:33,710 INFO c.a.a.AjiraAjirayaanApplication [main] Started AjiraAjirayaanApplication in 7.561 seconds (JVM running for 9.616)
+2021-01-10 23:04:41,199 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Enter: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with argument[s] = []
+2021-01-10 23:04:41,210 ERROR c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Exception in com.ajira.ajirayaan.person.EmployeeController.getEmployee() with cause = NULL
