@@ -1,0 +1,103 @@
+2021-01-10 19:19:50,186 INFO c.a.a.AjiraAjirayaanApplication [main] Starting AjiraAjirayaanApplication on DESKTOP-B6RTUQ2 with PID 10404 (D:\Study\JAVA\git\ajira-ajirayaan\target\classes started by Sam M in D:\Study\JAVA\git\ajira-ajirayaan)
+2021-01-10 19:19:50,309 DEBUG c.a.a.AjiraAjirayaanApplication [main] Running with Spring Boot v2.3.8.BUILD-SNAPSHOT, Spring v5.2.12.RELEASE
+2021-01-10 19:19:50,309 INFO c.a.a.AjiraAjirayaanApplication [main] No active profile set, falling back to default profiles: default
+2021-01-10 19:20:14,980 INFO c.a.a.AjiraAjirayaanApplication [main] Started AjiraAjirayaanApplication in 29.511 seconds (JVM running for 31.872)
+2021-01-10 19:22:02,718 INFO c.a.a.AjiraAjirayaanApplication [main] Starting AjiraAjirayaanApplication on DESKTOP-B6RTUQ2 with PID 7932 (D:\Study\JAVA\git\ajira-ajirayaan\target\classes started by Sam M in D:\Study\JAVA\git\ajira-ajirayaan)
+2021-01-10 19:22:02,729 DEBUG c.a.a.AjiraAjirayaanApplication [main] Running with Spring Boot v2.3.8.BUILD-SNAPSHOT, Spring v5.2.12.RELEASE
+2021-01-10 19:22:02,731 INFO c.a.a.AjiraAjirayaanApplication [main] No active profile set, falling back to default profiles: default
+2021-01-10 19:22:08,223 INFO c.a.a.AjiraAjirayaanApplication [main] Started AjiraAjirayaanApplication in 5.951 seconds (JVM running for 7.629)
+2021-01-10 19:22:24,070 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Enter: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with argument[s] = []
+2021-01-10 19:22:24,078 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Enter: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with argument[s] = [alex]
+2021-01-10 19:22:24,513 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Exit: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with result = com.ajira.ajirayaan.person.EmployeeEntity@2dbdfe
+2021-01-10 19:22:24,513 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Exit: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with result = com.ajira.ajirayaan.person.EmployeeEntity@2dbdfe
+2021-01-10 19:25:19,914 INFO c.a.a.AjiraAjirayaanApplication [main] Starting AjiraAjirayaanApplication on DESKTOP-B6RTUQ2 with PID 2408 (D:\Study\JAVA\git\ajira-ajirayaan\target\classes started by Sam M in D:\Study\JAVA\git\ajira-ajirayaan)
+2021-01-10 19:25:19,934 DEBUG c.a.a.AjiraAjirayaanApplication [main] Running with Spring Boot v2.3.8.BUILD-SNAPSHOT, Spring v5.2.12.RELEASE
+2021-01-10 19:25:19,935 INFO c.a.a.AjiraAjirayaanApplication [main] No active profile set, falling back to default profiles: default
+2021-01-10 19:25:26,199 INFO c.a.a.AjiraAjirayaanApplication [main] Started AjiraAjirayaanApplication in 6.735 seconds (JVM running for 8.279)
+2021-01-10 19:25:31,567 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Enter: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with argument[s] = []
+2021-01-10 19:25:31,584 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Enter: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with argument[s] = [alex]
+2021-01-10 19:25:31,916 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Exit: com.ajira.ajirayaan.person.EmployeeServiceImpl.getEmployeeByName() with result = EmployeeEntity [id=1, name=alex]
+2021-01-10 19:25:31,917 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-2] Exit: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with result = EmployeeEntity [id=1, name=alex]
+2021-01-10 19:28:15,182 INFO c.a.a.AjiraAjirayaanApplication [main] Starting AjiraAjirayaanApplication on DESKTOP-B6RTUQ2 with PID 9088 (D:\Study\JAVA\git\ajira-ajirayaan\target\classes started by Sam M in D:\Study\JAVA\git\ajira-ajirayaan)
+2021-01-10 19:28:15,191 DEBUG c.a.a.AjiraAjirayaanApplication [main] Running with Spring Boot v2.3.8.BUILD-SNAPSHOT, Spring v5.2.12.RELEASE
+2021-01-10 19:28:15,192 INFO c.a.a.AjiraAjirayaanApplication [main] No active profile set, falling back to default profiles: default
+2021-01-10 19:28:20,939 INFO c.a.a.AjiraAjirayaanApplication [main] Started AjiraAjirayaanApplication in 6.233 seconds (JVM running for 7.879)
+2021-01-10 19:28:32,166 DEBUG c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Enter: com.ajira.ajirayaan.person.EmployeeController.getEmployee() with argument[s] = []
+2021-01-10 19:28:32,176 ERROR c.a.a.a.LoggingAspect [http-nio-8080-exec-1] Exception in com.ajira.ajirayaan.person.EmployeeController.getEmployee() with cause = NULL
+2021-01-10 19:28:32,187 ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [http-nio-8080-exec-1] Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.ArithmeticException: / by zero] with root cause
+java.lang.ArithmeticException: / by zero
+	at com.ajira.ajirayaan.person.EmployeeController.getEmployee(EmployeeController.java:20) ~[classes/:?]
+	at com.ajira.ajirayaan.person.EmployeeController$$FastClassBySpringCGLIB$$701210d.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:771) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAfterThrowingAdvice.invoke(AspectJAfterThrowingAdvice.java:62) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.aspectj.MethodInvocationProceedingJoinPoint.proceed(MethodInvocationProceedingJoinPoint.java:88) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at com.ajira.ajirayaan.aspect.LoggingAspect.logAround(LoggingAspect.java:67) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethodWithGivenArgs(AbstractAspectJAdvice.java:644) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.aspectj.AbstractAspectJAdvice.invokeAdviceMethod(AbstractAspectJAdvice.java:633) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.aspectj.AspectJAroundAdvice.invoke(AspectJAroundAdvice.java:70) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:95) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:749) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:691) ~[spring-aop-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at com.ajira.ajirayaan.person.EmployeeController$$EnhancerBySpringCGLIB$$fd905012.getEmployee(<generated>) ~[classes/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:564) ~[?:?]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:190) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.41.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.12.RELEASE.jar:5.2.12.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.41.jar:9.0.41]
+	at java.lang.Thread.run(Thread.java:832) [?:?]
